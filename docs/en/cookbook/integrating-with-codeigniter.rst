@@ -78,8 +78,6 @@ Customize it to your needs.
         $driverImpl = $config->newDefaultAnnotationDriver(array(APPPATH.'models/Entities'));
         $config->setMetadataDriverImpl($driverImpl);
         $config->setQueryCacheImpl($cache);
-
-        $config->setQueryCacheImpl($cache);
     
         // Proxy configuration
         $config->setProxyDir(APPPATH.'/models/proxies');
